@@ -55,7 +55,6 @@
 **Step 2: Power Up Microcontroller**
 - Apply power to microcontroller
 
-
 **Step 3: Start Server**
 - **Windows**: Use `scripts/loopy_install_windows.ps1` for automated server startup
   ```powershell
