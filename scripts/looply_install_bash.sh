@@ -10,11 +10,12 @@ else
 fi
 
 # Step 2: Create virtual environment if it doesn't exist
-envPath="../myenv"
+envPath="$HOME/.looply/env"
 if [ -d "$envPath" ]; then
     echo "Virtual environment already exists."
 else
     echo "Creating virtual environment..."
+    mkdir -p "$(dirname "$envPath")"
     python -m venv "$envPath"
     if [ -d "$envPath" ]; then
         echo "Virtual environment created successfully."
@@ -44,4 +45,4 @@ fi
 
 # Step 6: Run s3a add
 echo "Running s3a add..."
-s3a 
+s3a

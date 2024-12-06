@@ -8,11 +8,12 @@ if ($pythonVersion) {
 }
 
 # Step 2: Create virtual environment if it doesn't exist
-$envPath = "..\myenv"
+$envPath = "$HOME\.looply\env"
 if (Test-Path $envPath) {
     Write-Host "Virtual environment already exists."
 } else {
     Write-Host "Creating virtual environment..."
+    New-Item -ItemType Directory -Force -Path (Split-Path $envPath) | Out-Null
     python -m venv $envPath
     if (Test-Path $envPath) {
         Write-Host "Virtual environment created successfully."
