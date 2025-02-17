@@ -56,11 +56,11 @@
 - Apply power to microcontroller
 
 **Step 3: Start Server**
-- **Windows**: Use `scripts/loopy_install_windows.ps1` for automated server startup
+- **Windows**: Use `scripts/looply_install_windows.ps1` for automated server startup
   ```powershell
   .\scripts\looply_install_windows.ps1
   ```
-- **Linux/macOS**: Use `scripts/loopy_install.sh` for automated server startup
+- **Linux/macOS**: Use `scripts/looply_install.sh` for automated server startup
   ```bash
   chmod +x scripts/loopy_install.sh
   ./scripts/looply_install.sh
