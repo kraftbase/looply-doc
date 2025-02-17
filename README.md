@@ -5,13 +5,13 @@
 - pip
 
 ## Installation Scripts
-- **Windows**: Use `scripts/loopy_install_windows.ps1` for automated installation
+- **Windows**: Use `scripts/looply_install_windows.ps1` for automated installation
   ```powershell
-  .\scripts\loopy_install_windows.ps1
+  .\scripts\looply_install_windows.ps1
   ```
-- **Linux/macOS**: Use `scripts/loopy_install.sh` for automated installation
+- **Linux/macOS**: Use `scripts/looply_install.sh` for automated installation
   ```bash
-  chmod +x scripts/loopy_install.sh
+  chmod +x scripts/looply_install.sh
   ./scripts/loopy_install.sh
   ```
 
